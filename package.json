@@ -30,15 +30,19 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.14.1",
+    "@hono/zod-validator": "^0.4.3",
     "@polar-sh/better-auth": "^0.0.10",
     "@polar-sh/sdk": "^0.32.7",
+    "@scalar/hono-api-reference": "^0.8.1",
     "better-auth": "^1.2.6",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.41.0",
     "hono": "^4.7.6",
+    "hono-openapi": "^0.4.6",
     "postgres": "^3.4.5",
     "resend": "^4.2.0",
-    "zod": "^3.24.2"
+    "zod": "^3.24.2",
+    "zod-openapi": "^4.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.24.0",
