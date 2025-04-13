@@ -1,0 +1,1 @@
+ALTER TABLE "plans" RENAME COLUMN "free_trial" TO "trial_days";

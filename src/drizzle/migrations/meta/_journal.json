@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1744395886846,
+      "tag": "0000_gorgeous_ted_forrester",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1744400011748,
+      "tag": "0001_icy_luminals",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1744400871148,
+      "tag": "0002_aberrant_mantis",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1744400968619,
+      "tag": "0003_typical_landau",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1744459343313,
+      "tag": "0004_productive_edwin_jarvis",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1744462068110,
+      "tag": "0005_glorious_moonstone",
+      "breakpoints": true
+    }
+  ]
+}
