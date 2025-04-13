@@ -1,4 +1,7 @@
-import { auth } from "#src/utils/auth.js";
+import { auth } from "#src/config/auth.js";
+import { errorHandler } from "#src/middlewares/error.js";
+import { notFound } from "#src/middlewares/error.js";
+import { v1 } from "#src/routes/v1/index.js";
 import { ENV } from "#src/utils/env.js";
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
@@ -30,19 +33,6 @@ app.use(
     supportedLanguages: ["en", "et", "tr"],
   }),
 );
-app.use("*", async (c, next) => {
-  const session = await auth.api.getSession({ headers: c.req.raw.headers });
-
-  if (!session) {
-    c.set("user", null);
-    c.set("session", null);
-    return next();
-  }
-
-  c.set("user", session.user);
-  c.set("session", session.session);
-  return next();
-});
 app.use(
   "*",
   cors({
@@ -59,9 +49,10 @@ app.on(["POST", "GET"], "/api/auth/*", (c) => {
   return auth.handler(c.req.raw);
 });
 
-app.get("/", (c) => {
-  return c.text("Hello Hono!");
-});
+app.route("/api/v1", v1);
+
+app.onError(errorHandler);
+app.notFound(notFound);
 
 serve(
   {

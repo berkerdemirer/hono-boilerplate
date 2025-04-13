@@ -1,11 +1,11 @@
-import { db } from "#src/drizzle/index.js";
+import { db } from "#src/db/index.js";
 import {
   account,
   product,
   session,
   user,
   verification,
-} from "#src/drizzle/schema.js";
+} from "#src/db/schema.js";
 import { resetPasswordEmail } from "#src/templates/mail.js";
 import { verifyEmail, welcomeEmail } from "#src/templates/mail.js";
 import { ENV } from "#src/utils/env.js";
