@@ -104,6 +104,7 @@ export const auth = betterAuth({
       clientSecret: ENV.GOOGLE_CLIENT_SECRET,
     },
   },
+  trustedOrigins: [ENV.CLIENT_URL],
   user: {
     deleteUser: {
       enabled: true,
