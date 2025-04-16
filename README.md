@@ -45,6 +45,10 @@ npm install
 npm run db:push
 ```
 
+5. Optional
+
+If you wish, you could delete the migrations file and run `npm run db:generate` and `npm run db:migrate` to create new migrations files and then apply the migrations to your db.
+
 ## Development
 
 Start the development server:
