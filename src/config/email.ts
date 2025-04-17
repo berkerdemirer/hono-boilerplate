@@ -1,3 +1,3 @@
 export const emailConfig = {
-  from: "berker@thesaasgrid.com",
+  from: "abc@yourdomain.com",
 };

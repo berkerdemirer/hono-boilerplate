@@ -22,7 +22,7 @@ const app = new Hono<{
 }>();
 
 app.use(prettyJSON());
-app.use(csrf({ origin: "http://localhost:5173" }));
+app.use(csrf({ origin: ENV.CLIENT_URL }));
 app.use(compress());
 app.use(logger());
 app.use(secureHeaders());
@@ -41,7 +41,7 @@ app.use(
     credentials: true,
     exposeHeaders: ["Content-Length"],
     maxAge: 600,
-    origin: "http://localhost:5173",
+    origin: ENV.CLIENT_URL,
   }),
 );
 
