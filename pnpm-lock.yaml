@@ -13,13 +13,13 @@ importers:
         version: 1.14.1(hono@4.7.7)
       '@hono/zod-validator':
         specifier: ^0.4.3
-        version: 0.4.3(hono@4.7.7)(zod@3.24.2)
+        version: 0.4.3(hono@4.7.7)(zod@3.24.3)
       '@polar-sh/better-auth':
         specifier: ^0.0.10
-        version: 0.0.10(@polar-sh/sdk@0.32.7(zod@3.24.2))(better-auth@1.2.6)
+        version: 0.0.10(@polar-sh/sdk@0.32.7(zod@3.24.3))(better-auth@1.2.6)
       '@polar-sh/sdk':
         specifier: ^0.32.7
-        version: 0.32.7(zod@3.24.2)
+        version: 0.32.7(zod@3.24.3)
       '@scalar/hono-api-reference':
         specifier: ^0.8.1
         version: 0.8.1(hono@4.7.7)
@@ -37,7 +37,7 @@ importers:
         version: 4.7.7
       hono-openapi:
         specifier: ^0.4.6
-        version: 0.4.6(@hono/zod-validator@0.4.3(hono@4.7.7)(zod@3.24.2))(hono@4.7.7)(zod-openapi@4.2.4(zod@3.24.2))(zod@3.24.2)
+        version: 0.4.6(@hono/zod-validator@0.4.3(hono@4.7.7)(zod@3.24.3))(hono@4.7.7)(zod-openapi@4.2.4(zod@3.24.3))(zod@3.24.3)
       postgres:
         specifier: ^3.4.5
         version: 3.4.5
@@ -46,10 +46,10 @@ importers:
         version: 4.2.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       zod:
         specifier: ^3.24.2
-        version: 3.24.2
+        version: 3.24.3
       zod-openapi:
         specifier: ^4.2.4
-        version: 4.2.4(zod@3.24.2)
+        version: 4.2.4(zod@3.24.3)
     devDependencies:
       '@eslint/js':
         specifier: ^9.24.0
@@ -2147,8 +2147,8 @@ packages:
     peerDependencies:
       zod: ^3.21.4
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.24.3:
+    resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
 
 snapshots:
 
@@ -2461,10 +2461,10 @@ snapshots:
     dependencies:
       hono: 4.7.7
 
-  '@hono/zod-validator@0.4.3(hono@4.7.7)(zod@3.24.2)':
+  '@hono/zod-validator@0.4.3(hono@4.7.7)(zod@3.24.3)':
     dependencies:
       hono: 4.7.7
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@humanfs/core@0.19.1': {}
 
@@ -2565,16 +2565,16 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@polar-sh/better-auth@0.0.10(@polar-sh/sdk@0.32.7(zod@3.24.2))(better-auth@1.2.6)':
+  '@polar-sh/better-auth@0.0.10(@polar-sh/sdk@0.32.7(zod@3.24.3))(better-auth@1.2.6)':
     dependencies:
-      '@polar-sh/sdk': 0.32.7(zod@3.24.2)
+      '@polar-sh/sdk': 0.32.7(zod@3.24.3)
       better-auth: 1.2.6
-      zod: 3.24.2
+      zod: 3.24.3
 
-  '@polar-sh/sdk@0.32.7(zod@3.24.2)':
+  '@polar-sh/sdk@0.32.7(zod@3.24.3)':
     dependencies:
       standardwebhooks: 1.0.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@react-email/render@1.0.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
@@ -2655,7 +2655,7 @@ snapshots:
 
   '@scalar/openapi-types@0.2.0':
     dependencies:
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@scalar/types@0.1.7':
     dependencies:
@@ -2663,7 +2663,7 @@ snapshots:
       '@unhead/schema': 1.11.20
       nanoid: 5.1.5
       type-fest: 4.39.1
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@selderee/plugin-htmlparser2@0.11.0':
     dependencies:
@@ -2894,7 +2894,7 @@ snapshots:
       jose: 5.10.0
       kysely: 0.27.6
       nanostores: 0.11.4
-      zod: 3.24.2
+      zod: 3.24.3
 
   better-call@1.0.8:
     dependencies:
@@ -3309,14 +3309,14 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono-openapi@0.4.6(@hono/zod-validator@0.4.3(hono@4.7.7)(zod@3.24.2))(hono@4.7.7)(zod-openapi@4.2.4(zod@3.24.2))(zod@3.24.2):
+  hono-openapi@0.4.6(@hono/zod-validator@0.4.3(hono@4.7.7)(zod@3.24.3))(hono@4.7.7)(zod-openapi@4.2.4(zod@3.24.3))(zod@3.24.3):
     dependencies:
       json-schema-walker: 2.0.0
     optionalDependencies:
-      '@hono/zod-validator': 0.4.3(hono@4.7.7)(zod@3.24.2)
+      '@hono/zod-validator': 0.4.3(hono@4.7.7)(zod@3.24.3)
       hono: 4.7.7
-      zod: 3.24.2
-      zod-openapi: 4.2.4(zod@3.24.2)
+      zod: 3.24.3
+      zod-openapi: 4.2.4(zod@3.24.3)
 
   hono@4.7.7: {}
 
@@ -3928,8 +3928,8 @@ snapshots:
 
   zhead@2.2.4: {}
 
-  zod-openapi@4.2.4(zod@3.24.2):
+  zod-openapi@4.2.4(zod@3.24.3):
     dependencies:
-      zod: 3.24.2
+      zod: 3.24.3
 
-  zod@3.24.2: {}
+  zod@3.24.3: {}
