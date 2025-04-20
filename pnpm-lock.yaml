@@ -15,8 +15,8 @@ importers:
         specifier: ^0.4.3
         version: 0.4.3(hono@4.7.7)(zod@3.24.3)
       '@polar-sh/better-auth':
-        specifier: ^0.0.10
-        version: 0.0.10(@polar-sh/sdk@0.32.11(zod@3.24.3))(better-auth@1.2.7)
+        specifier: ^0.1.0
+        version: 0.1.0(@polar-sh/sdk@0.32.11(zod@3.24.3))(better-auth@1.2.7)
       '@polar-sh/sdk':
         specifier: ^0.32.7
         version: 0.32.11(zod@3.24.3)
@@ -579,11 +579,11 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@polar-sh/better-auth@0.0.10':
-    resolution: {integrity: sha512-g17mMiZBSJ9QAuXSPJyBHP5RrbtVFiIfRfnsMzX59FpZPrB9sHTpSx8+XN5kNtwIlYVHWVIWSuEdqAdrIcsi0A==}
+  '@polar-sh/better-auth@0.1.0':
+    resolution: {integrity: sha512-Gw67CoLoPIelwpa+BR7cMZb/i8MJP2g2E93MhEl26OuWGt8xNbAqzXasDoyUgZQ/r6ZwwdYPRzUqMWmwnRTEqQ==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@polar-sh/sdk': ^0.32.0
+      '@polar-sh/sdk': ^0.32.11
       better-auth: ^1.2.0
 
   '@polar-sh/sdk@0.32.11':
@@ -2379,7 +2379,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@polar-sh/better-auth@0.0.10(@polar-sh/sdk@0.32.11(zod@3.24.3))(better-auth@1.2.7)':
+  '@polar-sh/better-auth@0.1.0(@polar-sh/sdk@0.32.11(zod@3.24.3))(better-auth@1.2.7)':
     dependencies:
       '@polar-sh/sdk': 0.32.11(zod@3.24.3)
       better-auth: 1.2.7
