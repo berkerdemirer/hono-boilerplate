@@ -5,6 +5,9 @@
   "license": "MIT",
   "description": "A boilerplate for Hono with BetterAuth",
   "version": "1.0.0",
+  "imports": {
+    "#*": "./*"
+  },
   "scripts": {
     "dev": "tsx --watch --env-file .env src/index.ts",
     "start": "node --env-file .env dist/index.js",
@@ -24,9 +27,6 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky"
-  },
-  "imports": {
-    "#*": "./*"
   },
   "dependencies": {
     "@hono/node-server": "^1.14.1",
@@ -64,10 +64,10 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint",
-      "prettier --check"
+      "prettier --write"
     ],
     "*.{json,yml,yaml,md}": [
-      "prettier --check"
+      "prettier --write"
     ]
   }
 }
