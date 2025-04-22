@@ -89,7 +89,7 @@ src/
 
 ## Notes
 
-- If you want to use the email verification, you should set the callbacURL from the client side by initiating the verification sending action
+- If you want to use the email verification, you should set the callbackURL from the client side by initiating the verification sending action
 - In order for your mails to reach, you should use verified domain as your emailFrom config under config/email.ts. Otherwise resend will block your request.
 - If you want to check how this backend would work with a client app check: https://github.com/berkerdemirer/vite-react-boilerplate
 
