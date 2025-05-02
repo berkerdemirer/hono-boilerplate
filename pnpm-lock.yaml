@@ -22,7 +22,7 @@ importers:
         version: 0.32.13(zod@3.24.3)
       '@scalar/hono-api-reference':
         specifier: ^0.8.1
-        version: 0.8.7(hono@4.7.8)
+        version: 0.8.8(hono@4.7.8)
       better-auth:
         specifier: ^1.2.6
         version: 1.2.7
@@ -43,7 +43,7 @@ importers:
         version: 3.4.5
       resend:
         specifier: ^4.2.0
-        version: 4.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 4.5.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       zod:
         specifier: ^3.24.2
         version: 3.24.3
@@ -694,22 +694,22 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/core@0.2.13':
-    resolution: {integrity: sha512-d0MjF9hUh1rmK3nS1RkpVYLPO5oCl0pfS2mI6uzXmk7uspu2AE9YATbQ9j7SShM0UTOThKTtkYT8N2DJB3vE6g==}
+  '@scalar/core@0.2.14':
+    resolution: {integrity: sha512-w2oLqUVJt88ed2uHKFgg8UOFeyHDpi3QmSJqqc4CZPjAz/lKj34antHYMEG3A4Iom+06W31XQeqFO9zQ2eNsfA==}
     engines: {node: '>=18'}
 
-  '@scalar/hono-api-reference@0.8.7':
-    resolution: {integrity: sha512-ZKCzb2nylucwI+/YCL402pMAdq4JEoux4on72aD9rRxTuEsP3R3lVSTNt1rJMCpiXXZXyLk/caMVzvFreCsLgw==}
+  '@scalar/hono-api-reference@0.8.8':
+    resolution: {integrity: sha512-VLpgkUOcKg4SSnWwp6/hGF5gNypeL+e791HD4ANmxImU8k+VbsKh53W7ZOivRY1fIMkPcd0TvzQvKm2MqyJDJw==}
     engines: {node: '>=18'}
     peerDependencies:
       hono: ^4.0.0
 
-  '@scalar/openapi-types@0.2.1':
-    resolution: {integrity: sha512-UMxX54taQXnEWYEuesbH+pkjlXRVV1u/Wx6YbVeU3QoJdFGqT3Z7si9zsokoG6MXDcdi1LGny7A0KwownmPvUQ==}
+  '@scalar/openapi-types@0.2.2':
+    resolution: {integrity: sha512-fwWboUf3W5U4qWU7nj4jrs+KYilnfKyVp0d6LC1ejB2aROgWXIAscRtVaPLPaNLpTZOBsMC8XpiAPm3/SlU+mA==}
     engines: {node: '>=18'}
 
-  '@scalar/types@0.1.13':
-    resolution: {integrity: sha512-9PgGX4TSNWUcfuGwE4kHvKypc5VhLS450C0V9IuhIIVLrLsyiz8ZA3X/lxQEPoB1zlFbUBmceLD6Xh9c41P7oQ==}
+  '@scalar/types@0.1.14':
+    resolution: {integrity: sha512-N7qZ9qARJfi4Gl5MEsRfwPHFWs68qDXWQ+jGi05LGExDqErAJStc4PPkEmxt44uSO4+TVx4ADxWB6xNoGMG/Zg==}
     engines: {node: '>=18'}
 
   '@selderee/plugin-htmlparser2@0.11.0':
@@ -808,9 +808,6 @@ packages:
   '@typescript-eslint/visitor-keys@8.31.1':
     resolution: {integrity: sha512-I+/rgqOVBn6f0o7NDTmAPWWC6NuqhV174lfYvAm9fUaWeiefLdux9/YI3/nLugEn9L8fcSi0XmpKi/r5u0nmpw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@unhead/schema@1.11.20':
-    resolution: {integrity: sha512-0zWykKAaJdm+/Y7yi/Yds20PrUK7XabLe9c3IRcjnwYmSWY6z0Cr19VIs3ozCj8P+GhR+/TI2mwtGlueCEYouA==}
 
   '@vitest/coverage-v8@3.1.2':
     resolution: {integrity: sha512-XDdaDOeaTMAMYW7N63AqoK32sYUWbXnTkC6tEbVcu3RlU1bB9of32T+PGf8KZvxqLNqeXhafDFqCkwpf2+dyaQ==}
@@ -1364,9 +1361,6 @@ packages:
     resolution: {integrity: sha512-PCibtFdxa7/Ldud9yddl1G81GjYaeMYYTq4ywSaNsYbB1Lug4mwtOMJf2WXykL0pntYwmpRJeOI3NmoDgD+Jxw==}
     engines: {node: '>=16.9.0'}
 
-  hookable@5.5.3:
-    resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
-
   html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
 
@@ -1698,8 +1692,8 @@ packages:
     resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
     engines: {node: '>=0.10.0'}
 
-  resend@4.4.1:
-    resolution: {integrity: sha512-FR22bzMW3VfoyZSBc8ScGo8ShrMWHmWB0G3FrispzWCnYSEEK5M7pyRvZtInKmM/09lsJETKc2q66mX+dXPSmg==}
+  resend@4.5.0:
+    resolution: {integrity: sha512-gUmfRaYlqJUVO0W29yibZatAhqEUtpE7ZWa2AMRpbIZVOgK+ONFI1Qf8a4VB3ItAWJSyF90VVRu3p3Jc01x2Rg==}
     engines: {node: '>=18'}
 
   resolve-from@4.0.0:
@@ -1872,10 +1866,6 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  type-fest@4.40.1:
-    resolution: {integrity: sha512-9YvLNnORDpI+vghLU/Nf+zSv0kL47KbVJ1o3sKgoTefl6i+zebxbiDQWoe/oWWqPhIgQdRZRT1KA9sCPL810SA==}
-    engines: {node: '>=16'}
-
   typescript-eslint@8.31.1:
     resolution: {integrity: sha512-j6DsEotD/fH39qKzXTQRwYYWlt7D+0HmfpOK+DVhwJOFLcdmn92hq3mBb7HlKJHbjjI/gTOqEcc9d6JfpFf/VA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -2004,9 +1994,6 @@ packages:
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-
-  zhead@2.2.4:
-    resolution: {integrity: sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag==}
 
   zod-openapi@4.2.4:
     resolution: {integrity: sha512-tsrQpbpqFCXqVXUzi3TPwFhuMtLN3oNZobOtYnK6/5VkXsNdnIgyNr4r8no4wmYluaxzN3F7iS+8xCW8BmMQ8g==}
@@ -2439,25 +2426,23 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.40.0':
     optional: true
 
-  '@scalar/core@0.2.13':
+  '@scalar/core@0.2.14':
     dependencies:
-      '@scalar/types': 0.1.13
+      '@scalar/types': 0.1.14
 
-  '@scalar/hono-api-reference@0.8.7(hono@4.7.8)':
+  '@scalar/hono-api-reference@0.8.8(hono@4.7.8)':
     dependencies:
-      '@scalar/core': 0.2.13
+      '@scalar/core': 0.2.14
       hono: 4.7.8
 
-  '@scalar/openapi-types@0.2.1':
+  '@scalar/openapi-types@0.2.2':
     dependencies:
-      zod: 3.24.3
+      zod: 3.24.1
 
-  '@scalar/types@0.1.13':
+  '@scalar/types@0.1.14':
     dependencies:
-      '@scalar/openapi-types': 0.2.1
-      '@unhead/schema': 1.11.20
+      '@scalar/openapi-types': 0.2.2
       nanoid: 5.1.5
-      type-fest: 4.40.1
       zod: 3.24.1
 
   '@selderee/plugin-htmlparser2@0.11.0':
@@ -2602,11 +2587,6 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.31.1
       eslint-visitor-keys: 4.2.0
-
-  '@unhead/schema@1.11.20':
-    dependencies:
-      hookable: 5.5.3
-      zhead: 2.2.4
 
   '@vitest/coverage-v8@3.1.2(vitest@3.1.2(@types/node@22.15.3)(tsx@4.19.4)(yaml@2.7.1))':
     dependencies:
@@ -3116,8 +3096,6 @@ snapshots:
 
   hono@4.7.8: {}
 
-  hookable@5.5.3: {}
-
   html-escaper@2.0.2: {}
 
   html-to-text@9.0.5:
@@ -3418,7 +3396,7 @@ snapshots:
 
   react@19.1.0: {}
 
-  resend@4.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  resend@4.5.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@react-email/render': 1.0.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
@@ -3596,8 +3574,6 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  type-fest@4.40.1: {}
-
   typescript-eslint@8.31.1(eslint@9.25.1)(typescript@5.8.3):
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.25.1)(typescript@5.8.3))(eslint@9.25.1)(typescript@5.8.3)
@@ -3724,8 +3700,6 @@ snapshots:
   yaml@2.7.1: {}
 
   yocto-queue@0.1.0: {}
-
-  zhead@2.2.4: {}
 
   zod-openapi@4.2.4(zod@3.24.3):
     dependencies:
