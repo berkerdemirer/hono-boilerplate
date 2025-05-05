@@ -1,4 +1,4 @@
-import { emailConfig } from "#src/config/email.js";
+import { emailConfig } from "#src/utils/config.js";
 import { ENV } from "#src/utils/env.js";
 import { Resend } from "resend";
 

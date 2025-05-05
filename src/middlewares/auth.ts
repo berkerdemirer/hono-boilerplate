@@ -1,6 +1,6 @@
 import type { Context, Next } from "hono";
 
-import { auth } from "#src/utils/auth.ts";
+import { auth } from "#src/utils/auth.js";
 
 // Middleware to protect routes from unauthorized access
 export const protect = async (c: Context, next: Next) => {

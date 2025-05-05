@@ -1,6 +1,6 @@
 import { errorHandler, notFound } from "#src/middlewares/error.js";
 import { v1 } from "#src/routes/v1/index.js";
-import { auth } from "#src/utils/auth.ts";
+import { auth } from "#src/utils/auth.js";
 import { ENV } from "#src/utils/env.js";
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";

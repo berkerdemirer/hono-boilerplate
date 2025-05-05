@@ -6,9 +6,9 @@ import {
   user,
   verification,
 } from "#src/db/schema.js";
-import { resetPasswordEmail } from "#src/templates/mail.js";
-import { verifyEmail, welcomeEmail } from "#src/templates/mail.js";
 import { ENV } from "#src/utils/env.js";
+import { resetPasswordEmail } from "#src/utils/mail.js";
+import { verifyEmail, welcomeEmail } from "#src/utils/mail.js";
 import { sendEmail } from "#src/utils/resend.js";
 import { polar } from "@polar-sh/better-auth";
 import { Polar } from "@polar-sh/sdk";

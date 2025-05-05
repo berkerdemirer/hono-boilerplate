@@ -1,18 +1,19 @@
 {
-  "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
-    "module": "NodeNext",
-    "outDir": "./dist",
-    "rootDir": ".",
+    "moduleResolution": "bundler",
     "strict": true,
-    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "types": ["node"],
-    "jsx": "react-jsx",
-    "allowImportingTsExtensions": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
     "noEmit": true,
-    "jsxImportSource": "hono/jsx"
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "jsxImportSource": "hono/jsx",
+    "jsx": "preserve"
   },
   "include": ["**/*.ts"],
   "exclude": ["dist"]
