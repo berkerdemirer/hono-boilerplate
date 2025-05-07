@@ -1,4 +1,4 @@
-import { getUsers } from "#src/controllers/users.js";
+import { db } from "#src/db/index.js";
 import { protect } from "#src/middlewares/auth.js";
 import { Hono } from "hono";
 import { describeRoute } from "hono-openapi";
@@ -32,7 +32,10 @@ user.get(
     },
   }),
   protect,
-  getUsers,
+  async (c) => {
+    const users = await db.query.user.findMany();
+    return c.json(users);
+  },
 );
 
 export { user };
